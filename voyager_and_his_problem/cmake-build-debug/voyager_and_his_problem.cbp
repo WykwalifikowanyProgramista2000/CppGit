@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="voyager_and_his_problem"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/wojti/Documents/CppGit/voyager_and_his_problem/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/wojti/Documents/CppGit/voyager_and_his_problem/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/wojti/Documents/CppGit/voyager_and_his_problem/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/wojti/Documents/CppGit/voyager_and_his_problem/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/wojti/Documents/CppGit/voyager_and_his_problem/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/wojti/Documents/CppGit/voyager_and_his_problem/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/wojti/Documents/CppGit/voyager_and_his_problem/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/wojti/Documents/CppGit/voyager_and_his_problem/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/wojti/Documents/CppGit/voyager_and_his_problem/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/wojti/Documents/CppGit/voyager_and_his_problem/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/wojti/Documents/CppGit/voyager_and_his_problem/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/wojti/Documents/CppGit/voyager_and_his_problem/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/wojti/Documents/CppGit/voyager_and_his_problem/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/wojti/Documents/CppGit/voyager_and_his_problem/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/wojti/Documents/CppGit/voyager_and_his_problem/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="voyager_and_his_problem">
+				<Option output="/home/wojti/Documents/CppGit/voyager_and_his_problem/cmake-build-debug/voyager_and_his_problem" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/wojti/Documents/CppGit/voyager_and_his_problem/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/wojti/Documents/CppGit/voyager_and_his_problem/."/>
+					<Add directory="/home/wojti/Documents/CppGit/voyager_and_his_problem/cmake-build-debug"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/wojti/Documents/CppGit/voyager_and_his_problem/cmake-build-debug/Makefile&quot;  VERBOSE=1 voyager_and_his_problem"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/wojti/Documents/CppGit/voyager_and_his_problem/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/wojti/Documents/CppGit/voyager_and_his_problem/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/wojti/Documents/CppGit/voyager_and_his_problem/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="voyager_and_his_problem/fast">
+				<Option output="/home/wojti/Documents/CppGit/voyager_and_his_problem/cmake-build-debug/voyager_and_his_problem" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/wojti/Documents/CppGit/voyager_and_his_problem/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/wojti/Documents/CppGit/voyager_and_his_problem/."/>
+					<Add directory="/home/wojti/Documents/CppGit/voyager_and_his_problem/cmake-build-debug"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/wojti/Documents/CppGit/voyager_and_his_problem/cmake-build-debug/Makefile&quot;  VERBOSE=1 voyager_and_his_problem/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/wojti/Documents/CppGit/voyager_and_his_problem/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/wojti/Documents/CppGit/voyager_and_his_problem/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/wojti/Documents/CppGit/voyager_and_his_problem/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/wojti/Documents/CppGit/voyager_and_his_problem/CMakeLists.txt">
+			<Option target="voyager_and_his_problem"/>
+		</Unit>
+		<Unit filename="/home/wojti/Documents/CppGit/voyager_and_his_problem/cmake-build-debug/CMakeCache.txt">
+			<Option target="voyager_and_his_problem"/>
+		</Unit>
+		<Unit filename="/home/wojti/Documents/CppGit/voyager_and_his_problem/cmake-build-debug/Makefile">
+			<Option target="voyager_and_his_problem"/>
+		</Unit>
+		<Unit filename="/home/wojti/Documents/CppGit/voyager_and_his_problem/cmake-build-debug/cmake_install.cmake">
+			<Option target="voyager_and_his_problem"/>
+		</Unit>
+		<Unit filename="/home/wojti/Documents/CppGit/voyager_and_his_problem/cmake-build-debug/untitled">
+			<Option target="voyager_and_his_problem"/>
+		</Unit>
+		<Unit filename="/home/wojti/Documents/CppGit/voyager_and_his_problem/cmake-build-debug/untitled.cbp">
+			<Option target="voyager_and_his_problem"/>
+		</Unit>
+		<Unit filename="/home/wojti/Documents/CppGit/voyager_and_his_problem/functions.h">
+			<Option target="voyager_and_his_problem"/>
+		</Unit>
+		<Unit filename="/home/wojti/Documents/CppGit/voyager_and_his_problem/main.cpp">
+			<Option target="voyager_and_his_problem"/>
+		</Unit>
+		<Unit filename="/home/wojti/Documents/CppGit/voyager_and_his_problem/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

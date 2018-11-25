@@ -1,0 +1,3 @@
+/home/wojti/Documents/CppGit/voyager_and_his_problem/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/wojti/Documents/CppGit/voyager_and_his_problem/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/wojti/Documents/CppGit/voyager_and_his_problem/cmake-build-debug/CMakeFiles/voyager_and_his_problem.dir

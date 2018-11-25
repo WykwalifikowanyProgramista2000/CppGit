@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/wojti/Documents/CppGit/voyager_and_his_problem/functions.h
+iostream
+-
+vector
+-
+algorithm
+-
+math.h
+-
+
+/home/wojti/Documents/CppGit/voyager_and_his_problem/main.cpp
+functions.h
+/home/wojti/Documents/CppGit/voyager_and_his_problem/functions.h
+cmath
+-
+functional
+-
+stdlib.h
+-
+

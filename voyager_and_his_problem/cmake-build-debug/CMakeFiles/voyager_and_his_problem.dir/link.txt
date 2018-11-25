@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/voyager_and_his_problem.dir/main.cpp.o  -o voyager_and_his_problem 
