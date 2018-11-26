@@ -239,15 +239,38 @@ void print_minimums_of_matrix_columns(ddvec &matrix) {
     std::cout << std::endl;
 }
 
-void last_two_routes(ddvec &matrix, double &lower_bound) {
-    std::vector<std::pair<int,int>> possible_routes;
+bool is_all_huj(ddvec &matrix) {
+    for(int row_index = 0; row_index < matrix.size(); row_index++) {
+        for (int col_index = 0; col_index < matrix.size(); col_index++) {
+            if(!isnan(matrix[row_index][col_index]))
+                return false;
+        }
+    }
+    return true;
+}
 
+void last_two_routes(ddvec matrix, double &lower_bound) {
+    ddvec possible_routes;
+    bool is_ok = false;
     lower_bound += reduce_all_rows_increase_LB(matrix);
+
     if(!is_0_in_each_col_and_row(matrix)){
         lower_bound += reduce_all_colsumns_increase_LB(matrix);
     }
 
-    
+    for(int row_index = 0; row_index < matrix.size(); row_index++) {
+        for (int col_index = 0; col_index < matrix.size(); col_index++) {
+            if(is_single_route_possible(matrix, row_index, col_index)){
+                possible_routes.push_back({(double)row_index,(double)col_index});
+            }
+        }
+    }
+
+    while(!is_ok){
+        
+    }
+
+
 }
 
 int** TSP_solver(ddvec matrix){
