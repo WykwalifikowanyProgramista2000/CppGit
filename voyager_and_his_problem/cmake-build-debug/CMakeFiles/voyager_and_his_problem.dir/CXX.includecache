@@ -15,6 +15,10 @@ algorithm
 -
 math.h
 -
+fstream
+-
+sstream
+-
 
 /home/wojti/Documents/CppGit/voyager_and_his_problem/main.cpp
 functions.h
@@ -24,5 +28,9 @@ cmath
 functional
 -
 stdlib.h
+-
+fstream
+-
+string
 -
 

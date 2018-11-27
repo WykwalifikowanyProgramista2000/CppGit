@@ -2,6 +2,8 @@
 #include <cmath>
 #include <functional>
 #include <stdlib.h>
+#include <fstream>
+#include <string>
 
 
 int main() {
@@ -29,5 +31,8 @@ int main() {
             {1, 1, 1, 1, 1}
     };
 
-    TSP_solver(cost_matrix);
+    std::vector<int> best_path = tsp(cost_matrix);
+
+    print_path(best_path);
+
 }

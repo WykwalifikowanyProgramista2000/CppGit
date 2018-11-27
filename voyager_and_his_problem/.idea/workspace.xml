@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="true">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="false">
     <generated>
       <config projectName="voyager_and_his_problem" targetName="voyager_and_his_problem" />
     </generated>
@@ -21,82 +21,16 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FUSProjectUsageTrigger">
-    <session id="368539843">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="1" />
-          <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="1" />
-        </counts>
-      </usages-collector>
-    </session>
-    <session id="-1641331006">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="4" />
-          <entry key="project.open.time.1" value="1" />
-          <entry key="project.open.time.11" value="1" />
-          <entry key="project.open.time.12" value="1" />
-          <entry key="project.open.time.13" value="3" />
-          <entry key="project.open.time.16" value="1" />
-          <entry key="project.opened" value="7" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="cpp" value="3002" />
-          <entry key="h" value="5131" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="ObjectiveC" value="8133" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.cidr.testingFrameworks.usages" />
-      <usages-collector id="statistics.vcs.git.usages" />
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="ObjectiveC" value="24" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="cmath" value="2" />
-          <entry key="cpp" value="1" />
-          <entry key="h" value="20" />
-          <entry key="new" value="1" />
-        </counts>
-      </usages-collector>
-    </session>
     <session id="445121698">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.open.time.1" value="1" />
-          <entry key="project.opened" value="1" />
-        </counts>
-      </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cpp" value="171" />
-          <entry key="h" value="1397" />
+          <entry key="cpp" value="63" />
+          <entry key="h" value="1138" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="ObjectiveC" value="1568" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="h" value="2" />
-          <entry key="voyager_and_his_problem (disassembly)" value="2" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="Disassembly" value="2" />
-          <entry key="ObjectiveC" value="2" />
+          <entry key="ObjectiveC" value="1201" />
         </counts>
       </usages-collector>
     </session>
@@ -106,8 +40,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="355">
-              <caret line="31" column="4" selection-start-line="31" selection-start-column="4" selection-end-line="31" selection-end-column="4" />
+            <state relative-caret-position="525">
+              <caret line="35" column="26" selection-start-line="35" selection-start-column="26" selection-end-line="35" selection-end-column="26" />
               <folding>
                 <element signature="e#0#22#0" expanded="true" />
               </folding>
@@ -118,27 +52,33 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/functions.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="269" column="8" lean-forward="true" selection-start-line="269" selection-start-column="8" selection-end-line="269" selection-end-column="8" />
+            <state relative-caret-position="225">
+              <caret line="203" column="1" lean-forward="true" selection-start-line="203" selection-start-column="1" selection-end-line="203" selection-end-column="1" />
               <folding>
-                <element signature="e#43#62#0" expanded="true" />
-                <element signature="e#242#730#0" />
-                <element signature="e#677#835#0" />
-                <element signature="e#841#1338#0" />
-                <element signature="e#1340#1858#0" />
-                <element signature="e#1956#2522#0" />
-                <element signature="e#2524#3110#0" />
-                <element signature="e#1860#2101#0" />
-                <element signature="e#3372#4592#0" />
-                <element signature="e#3287#3458#0" />
-                <element signature="e#3460#3623#0" />
-                <element signature="e#4970#5296#0" />
-                <element signature="e#3953#4298#0" />
-                <element signature="e#4300#4550#0" />
-                <element signature="e#4566#4835#0" />
-                <element signature="e#4871#5118#0" />
-                <element signature="e#5120#5447#0" />
-                <element signature="e#5449#5785#0" />
+                <element signature="e#51#70#0" expanded="true" />
+                <element signature="e#288#817#0" />
+                <element signature="e#819#977#0" />
+                <element signature="e#983#1479#0" />
+                <element signature="e#1481#1998#0" />
+                <element signature="e#2000#2562#0" />
+                <element signature="e#2568#3153#0" />
+                <element signature="e#3155#3420#0" />
+                <element signature="e#4672#4843#0" />
+                <element signature="e#4845#5008#0" />
+                <element signature="e#5010#5336#0" />
+                <element signature="e#5338#5683#0" />
+                <element signature="e#5951#6240#0" />
+                <element signature="e#6276#6523#0" />
+                <element signature="e#6320#6567#0" />
+                <element signature="e#6572#6752#0" />
+                <element signature="e#6525#6852#0" />
+                <element signature="e#6854#7190#0" />
+                <element signature="e#6249#7394#0" />
+                <element signature="e#6258#7466#0" />
+                <element signature="e#8449#10329#0" />
+                <element signature="e#8684#9372#0" />
+                <element signature="e#10967#11747#0" />
+                <element signature="e#10974#11096#0" />
               </folding>
             </state>
           </provider>
@@ -152,6 +92,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/print_functions.h" />
+        <option value="$PROJECT_DIR$/tsp_algorithm.h" />
         <option value="$PROJECT_DIR$/main.cpp" />
         <option value="$PROJECT_DIR$/functions.h" />
       </list>
@@ -175,6 +117,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -186,7 +129,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -240,24 +182,28 @@
       <workItem from="1542791313552" duration="3167000" />
       <workItem from="1542881338417" duration="7438000" />
       <workItem from="1543084026188" duration="16561000" />
-      <workItem from="1543151208884" duration="14087000" />
+      <workItem from="1543151208884" duration="14116000" />
+      <workItem from="1543230628398" duration="3174000" />
+      <workItem from="1543271914686" duration="2604000" />
+      <workItem from="1543316135634" duration="4239000" />
+      <workItem from="1543323182911" duration="5000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56963000" />
+    <option name="totallyTimeSpent" value="71260000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1213" height="775" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.119965725" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12510711" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.08372093" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.1627907" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32868218" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.25736433" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.5224806" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -374,10 +320,12 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/gigamatrix" />
+    <entry file="file://$PROJECT_DIR$/print_functions.h" />
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="355">
-          <caret line="31" column="4" selection-start-line="31" selection-start-column="4" selection-end-line="31" selection-end-column="4" />
+        <state relative-caret-position="525">
+          <caret line="35" column="26" selection-start-line="35" selection-start-column="26" selection-end-line="35" selection-end-column="26" />
           <folding>
             <element signature="e#0#22#0" expanded="true" />
           </folding>
@@ -386,27 +334,33 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/functions.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="269" column="8" lean-forward="true" selection-start-line="269" selection-start-column="8" selection-end-line="269" selection-end-column="8" />
+        <state relative-caret-position="225">
+          <caret line="203" column="1" lean-forward="true" selection-start-line="203" selection-start-column="1" selection-end-line="203" selection-end-column="1" />
           <folding>
-            <element signature="e#43#62#0" expanded="true" />
-            <element signature="e#242#730#0" />
-            <element signature="e#677#835#0" />
-            <element signature="e#841#1338#0" />
-            <element signature="e#1340#1858#0" />
-            <element signature="e#1956#2522#0" />
-            <element signature="e#2524#3110#0" />
-            <element signature="e#1860#2101#0" />
-            <element signature="e#3372#4592#0" />
-            <element signature="e#3287#3458#0" />
-            <element signature="e#3460#3623#0" />
-            <element signature="e#4970#5296#0" />
-            <element signature="e#3953#4298#0" />
-            <element signature="e#4300#4550#0" />
-            <element signature="e#4566#4835#0" />
-            <element signature="e#4871#5118#0" />
-            <element signature="e#5120#5447#0" />
-            <element signature="e#5449#5785#0" />
+            <element signature="e#51#70#0" expanded="true" />
+            <element signature="e#288#817#0" />
+            <element signature="e#819#977#0" />
+            <element signature="e#983#1479#0" />
+            <element signature="e#1481#1998#0" />
+            <element signature="e#2000#2562#0" />
+            <element signature="e#2568#3153#0" />
+            <element signature="e#3155#3420#0" />
+            <element signature="e#4672#4843#0" />
+            <element signature="e#4845#5008#0" />
+            <element signature="e#5010#5336#0" />
+            <element signature="e#5338#5683#0" />
+            <element signature="e#5951#6240#0" />
+            <element signature="e#6276#6523#0" />
+            <element signature="e#6320#6567#0" />
+            <element signature="e#6572#6752#0" />
+            <element signature="e#6525#6852#0" />
+            <element signature="e#6854#7190#0" />
+            <element signature="e#6249#7394#0" />
+            <element signature="e#6258#7466#0" />
+            <element signature="e#8449#10329#0" />
+            <element signature="e#8684#9372#0" />
+            <element signature="e#10967#11747#0" />
+            <element signature="e#10974#11096#0" />
           </folding>
         </state>
       </provider>
