@@ -15,24 +15,26 @@ int main() {
             {12, 3, 2, 7, INF}
     };
 
-    ddvec test_matrix{
-            {11, 11, 1, 11, 11},
-            {12, 10, 14, 14, 14},
-            {13, 12, 11, 16, 10},
-            {12, 14, 12, 13, 23},
-            {22, 12, 11, 11, 16}
+    ddvec test_matrix_5x5{
+            {INF, 99, 98, 7, 3},
+            {99, INF, 5, 6, 96},
+            {98, 5, INF, 94, 4},
+            {7, 6, 94, INF, 97},
+            {3, 96, 4, 97, INF}
     };
 
-    ddvec test_matrix_2{
-            {1, 1, 1, 1, 1},
-            {1, 1, 1, 1, 1},
-            {1, 1, 0, 1, 1},
-            {1, 1, 1, 1, 1},
-            {1, 1, 1, 1, 1}
+    ddvec test_matrix_6x6{
+            {INF, 99, 10,  4, 99, 99},
+            { 99,INF, 99, 99,  5,  6},
+            { 10, 99,INF, 99,  7, 99},
+            {  4, 99, 99,INF, 95,  5},
+            { 99,  5,  7, 95,INF, 99},
+            { 99,  6, 99,  5, 99,INF}
     };
+
+    print_matrix(cost_matrix);
 
     std::vector<int> best_path = tsp(cost_matrix);
-
     print_path(best_path);
 
 }
